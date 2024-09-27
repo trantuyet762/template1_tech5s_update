@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .top-menu-expanded{
+    @apply absolute top-[60px] z-50 w-full bg-white flex-col space-y-[10px]  text-center py-[10px]
+} */
