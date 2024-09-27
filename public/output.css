@@ -1616,9 +1616,9 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
-  .after\:xl\:bottom-\[-31px\]::after {
+  .after\:xl\:bottom-\[-29px\]::after {
     content: var(--tw-content);
-    bottom: -31px;
+    bottom: -29px;
   }
 
   .after\:xl\:left-1\/2::after {
