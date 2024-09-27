@@ -34,3 +34,33 @@
     }
 }
 
+@media (min-width: 1280px){
+  .text_vaccination{
+    width:450px;
+  }
+}
+@media (min-width: 1536px){
+  .text_vaccination{
+    width:500px;
+  }
+}
+@media (min-width: 1820px){
+  .text_vaccination{
+    width:648px;
+  }
+}
+@media (min-width: 1921px){
+  .text_vaccination{
+    
+  }
+}
+@media (min-width: 1536px){
+  .vaccination_left{
+    margin-left: 200px;
+  }
+}
+@media (min-width: 1820px){
+  .vaccination_left{
+    margin-left: 248px;
+  }
+}
