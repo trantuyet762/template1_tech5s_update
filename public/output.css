@@ -1947,6 +1947,14 @@ video {
     width: 720px;
   }
 
+  .\32xl\:w-\[648px\] {
+    width: 648px;
+  }
+
+  .\32xl\:w-\[624px\] {
+    width: 624px;
+  }
+
   .\32xl\:flex-row {
     flex-direction: row;
   }
@@ -2007,6 +2015,10 @@ video {
     font-size: 30px;
   }
 
+  .\32xl\:text-\[38px\] {
+    font-size: 38px;
+  }
+
   .\32xl\:leading-\[48px\] {
     line-height: 48px;
   }
@@ -2031,6 +2043,10 @@ video {
 
   .\33xl\:w-\[648px\] {
     width: 648px;
+  }
+
+  .\33xl\:w-\[750px\] {
+    width: 750px;
   }
 
   .\33xl\:flex-none {
