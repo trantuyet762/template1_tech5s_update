@@ -10,11 +10,17 @@
     gap:20px;
     text-align:center;
     padding-top: 20px ;
+    padding-bottom: 16px;
    
     
 }
 .header-shadow {
     box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.08); 
+  }
+  @media(min-width: 1820px){
+    .section_banner-text{
+      left: 256px
+    }
   }
 
   @media (min-width: 0px) { 

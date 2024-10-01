@@ -894,16 +894,24 @@ video {
   padding-bottom: 17px;
 }
 
-.pb-\[16px\] {
-  padding-bottom: 16px;
-}
-
 .pl-\[5px\] {
   padding-left: 5px;
 }
 
 .pr-\[5px\] {
   padding-right: 5px;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-\[16px\] {
+  padding-bottom: 16px;
 }
 
 .text-center {
@@ -1030,9 +1038,24 @@ video {
   transition-duration: 150ms;
 }
 
+.after\:duration-300::after {
+  content: var(--tw-content);
+  transition-duration: 300ms;
+}
+
 .after\:duration-500::after {
   content: var(--tw-content);
   transition-duration: 500ms;
+}
+
+.hover\:border-\[\#FFA733\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 167 51 / var(--tw-border-opacity));
+}
+
+.hover\:border-\[\#623904\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(98 57 4 / var(--tw-border-opacity));
 }
 
 .hover\:border-\[\#e1bd8d\]:hover {
@@ -1069,13 +1092,18 @@ video {
           background-clip: text;
 }
 
+.hover\:text-transparent:hover {
+  color: transparent;
+}
+
+.hover\:text-\[\#623904\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(98 57 4 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#f5c78a\]:hover {
   --tw-text-opacity: 1;
   color: rgb(245 199 138 / var(--tw-text-opacity));
-}
-
-.hover\:text-transparent:hover {
-  color: transparent;
 }
 
 @media (min-width: 0px) {
@@ -1163,6 +1191,10 @@ video {
 
   .xs\:rounded-\[70px\] {
     border-radius: 70px;
+  }
+
+  .xs\:pb-8 {
+    padding-bottom: 2rem;
   }
 
   .xs\:text-\[12px\] {
@@ -1898,6 +1930,10 @@ video {
     padding-right: 0px;
   }
 
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
   .xl\:text-start {
     text-align: start;
   }
@@ -2004,12 +2040,12 @@ video {
     left: -117px;
   }
 
-  .\32xl\:left-\[195px\] {
-    left: 195px;
+  .\32xl\:left-\[100px\] {
+    left: 100px;
   }
 
-  .\32xl\:left-\[256px\] {
-    left: 256px;
+  .\32xl\:left-\[195px\] {
+    left: 195px;
   }
 
   .\32xl\:left-\[355px\] {
@@ -2030,6 +2066,10 @@ video {
 
   .\32xl\:top-\[610px\] {
     top: 610px;
+  }
+
+  .\32xl\:left-\[256px\] {
+    left: 256px;
   }
 
   .\32xl\:ml-\[14px\] {
@@ -2116,10 +2156,6 @@ video {
     width: 100%;
   }
 
-  .\32xl\:w-\[1000px\] {
-    width: 1000px;
-  }
-
   .\32xl\:flex-row {
     flex-direction: row;
   }
@@ -2186,6 +2222,10 @@ video {
 }
 
 @media (min-width: 1921px) {
+  .\33xl\:left-\[256px\] {
+    left: 256px;
+  }
+
   .\33xl\:w-2\/4 {
     width: 50%;
   }
