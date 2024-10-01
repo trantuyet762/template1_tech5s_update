@@ -17,6 +17,16 @@
 .header-shadow {
     box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.08); 
   }
+
+
+  .inside-circle-shadow{
+    box-shadow: 4px 6px 16px 0px #00000059;
+
+    .outside-circle-shadow{
+      box-shadow: 0px 0px 16px 0px #00000059;
+
+    }
+  }
   @media(min-width: 0px){
     .section_banner-text{
       margin-left: 15px;
