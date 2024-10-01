@@ -17,11 +17,29 @@
 .header-shadow {
     box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.08); 
   }
-  @media(min-width: 1820px){
+  @media(min-width: 0px){
     .section_banner-text{
-      left: 256px
+      margin-left: 15px;
     }
   }
+  @media(min-width: 1280px){
+    .section_banner-text{
+      margin-left: 60px;
+    }
+  }
+  @media(min-width: 1536px){
+    .section_banner-text{
+      margin-left: 100px;
+    }
+  }
+ 
+  
+  @media(min-width: 1820px){
+    .section_banner-text{
+      margin-left: 256px;
+    }
+  }
+
 
   @media (min-width: 0px) { 
     .top-menu-expanded {
@@ -39,7 +57,11 @@
         width: 40%;
     }
 }
-
+@media (min-width: 412px){
+  .text_vaccination{
+    padding-right:20px;
+  }
+}
 @media (min-width: 1280px){
   .text_vaccination{
     width:450px;
