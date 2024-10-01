@@ -7,8 +7,8 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
       },
       screens: {
-        '3xl': '1921px',
-        'xs' :'0px',
+        '3xl': '1920px',
+        'xs' :'360px',
       },
     },
   },
