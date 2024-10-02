@@ -11,7 +11,7 @@
     text-align:center;
     padding-top: 20px ;
     padding-bottom: 16px;
-   
+    width:100%
     
 }
 .header-shadow {
@@ -51,22 +51,7 @@
   }
 
 
-  @media (min-width: 0px) { 
-    .top-menu-expanded {
-        width: 100%;
-    }
-}
-
-  @media (min-width: 768px) { 
-    .top-menu-expanded {
-        width: 50%;
-    }
-}
-  @media (min-width: 1024px) { 
-    .top-menu-expanded {
-        width: 40%;
-    }
-}
+  
 @media (min-width: 412px){
   .text_vaccination{
     padding-right:0px;
