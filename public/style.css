@@ -117,12 +117,17 @@
     transition: color 0.5s ease-in-out;
     position: relative;
     &:last-child{
-      cursor: pointer;
       display: flex;
       gap: 4px;
       align-items: center;
-      transition: background-color 0.5s ease-in-out;
-      a{
+      background-image: linear-gradient(to bottom, #FFB464, #E57709);
+      border-radius: 20px;
+      height: 2.5rem;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-image 0.5s ease-in-out;
+
+      a {
         text-decoration: none;
       }
     }
@@ -138,11 +143,13 @@
 
 li:hover {
     background-clip: text;
-    background-color: linear-gradient(to bottom, #4EBEFF, #0679BB);
+    background-image: linear-gradient(to bottom, #4EBEFF, #0679BB);
     color: transparent;
    &:last-child:hover{
-    background-color: linear-gradient(to bottom, #FFD27A, #FF9B30)!important;
-    background-clip:none;
+    background-image: linear-gradient(to bottom, #FFD27A, #FF9B30) !important;
+      color: white !important; 
+      background-color: transparent !important;
+      background-clip:unset;
   }
 }
 
@@ -182,17 +189,14 @@ li:hover {
 
 @media (min-width: 1280px) {
   .header_menu li:last-child {
-      background-color: linear-gradient(to bottom, #FFB464, #E57709)!important;;
+      background-image: linear-gradient(to bottom, #FFB464, #E57709)!important;
+      background-color: transparent; 
       border-radius: 20px;
       height: 2.5rem;
       color: white;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  .header_menu li:last-child:hover{
-    
-    background-color: linear-gradient(to bottom, #FFD27A, #FF9B30)!important;;
-
-  }
+ 
   
 }
 
