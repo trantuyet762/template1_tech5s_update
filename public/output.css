@@ -680,6 +680,10 @@ video {
   top: 350px;
 }
 
+.bottom-\[87px\] {
+  bottom: 87px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -2585,6 +2589,10 @@ video {
     top: 610px;
   }
 
+  .\32xl\:bottom-\[-110px\] {
+    bottom: -110px;
+  }
+
   .\32xl\:ml-\[14px\] {
     margin-left: 14px;
   }
@@ -2771,6 +2779,10 @@ video {
 }
 
 @media (min-width: 1920px) {
+  .\33xl\:bottom-\[-87px\] {
+    bottom: -87px;
+  }
+
   .\33xl\:w-2\/4 {
     width: 50%;
   }
