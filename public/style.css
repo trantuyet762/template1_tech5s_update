@@ -83,3 +83,12 @@
     margin-left: 248px;
   }
 }
+.customer-benifits_text{
+  p{
+    line-height: 20px;
+  }
+}
+.shawdow_btn_phoneCustomer{
+  box-shadow: 0px 8px 16px 0px rgba(229, 119, 9, 0.35);
+
+}
