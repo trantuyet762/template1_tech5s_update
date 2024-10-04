@@ -28,6 +28,17 @@
 
     }
   }
+  .like_shadow{
+    box-shadow: 0px 8px 40px 0px #00000026;
+
+  }
+  .border_gradient{
+    border-image: linear-gradient(to right, #2891CC, #0A9949) 1;
+  }
+  .shadow_bottom_page{
+    backdrop-filter: blur(200px)
+
+  }
   @media(min-width: 0px){
     .top-menu-expanded{
       top:58px;
