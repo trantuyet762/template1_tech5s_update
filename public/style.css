@@ -242,6 +242,7 @@ li:hover {
   margin-top: 10px;
 }
 
+
 .btn_slider {
   width:15px;
   border-radius: 3.5px;
@@ -258,8 +259,9 @@ li:hover {
   .button.active {
     width:61px;
   }
+ 
   .btn_slider{
-    width:15px;
+    width:17px;
     margin: 0 5px;
   }
 }
@@ -295,5 +297,24 @@ li:hover {
 }
 .swiper-slide-cmt p{
   max-width:400px;
+}
+
+// btn cmt
+#btn_tabline{
+  width:126px;
+  display:flex;
+  justify-content:space-between;
+}
+.tabline_item.button {
+  width: 17px;
+  border-radius: 3.5px;
+  background-color: #EBEBEB;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.tabline_item.active-cmt {
+  background-color: #E57709;
+  width: 61px; 
 }
 

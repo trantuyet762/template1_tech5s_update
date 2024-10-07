@@ -4,15 +4,15 @@ const overlay = document.getElementById('menu-overlay');
 const phoneIcon = document.getElementById('phone-icon');
 const phoneNumber = document.getElementById('phone-number');
 //change bg tabline
-const btnTab = document.querySelectorAll('#btn_tabline button');
+const btnTab = document.querySelectorAll('#btn_tabline .button');
 
-btnTab.forEach(btnItem => {
-    btnItem.addEventListener('click', () => {
-        // Reset all buttons to the default color
-        btnTab.forEach(itemTab => itemTab.style.backgroundColor = '#EBEBEB');
-        
-        // Set the clicked button to the active color
-        btnItem.style.backgroundColor = '#E57709';
+btnTab.forEach((tabItem) => {
+    tabItem.addEventListener('click', () => {
+       
+        btnTab.forEach((btn) => btn.classList.remove('active-cmt'));
+
+       
+        tabItem.classList.add('active-cmt');
     });
 });
 
