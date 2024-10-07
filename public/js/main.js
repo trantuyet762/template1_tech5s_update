@@ -52,3 +52,27 @@ toggleIcons.forEach((icon, index) => {
         }
     });
 });
+
+//slider img
+let currentSlide = 0;
+  const swiperEl = document.querySelector('.swiper-container-cmt');
+  swiperEl.initialize();
+  const btnSlider = document.querySelectorAll('.btn_slider');
+  const swiper = document.querySelector('.mySwiper');
+
+  function showSlide(index) {
+    currentSlide = index;
+    swiper.swiper.slideTo(currentSlide, 500);
+    updateButtons();
+  }
+
+  function updateButtons() {
+    btnSlider.forEach((button, i) => {
+      button.classList.toggle('active', i === currentSlide);
+    });
+  }
+
+  swiper.addEventListener('slidechange', () => {
+    currentSlide = swiper.swiper.realIndex;
+    updateButtons();
+  });
