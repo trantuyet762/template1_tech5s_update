@@ -1,8 +1,17 @@
+
 const topMenu= document.getElementById('top-menu')
 const toggleTopMenu= document.getElementById('toggle-top-menu-icon')
 const overlay = document.getElementById('menu-overlay');
 const phoneIcon = document.getElementById('phone-icon');
 const phoneNumber = document.getElementById('phone-number');
+//slider img
+const swiper = new Swiper('.swiper-container', {
+    // Các tùy chọn Swiper của bạn
+});
+
+// Slider img
+
+
 //change bg tabline
 const btnTab = document.querySelectorAll('#btn_tabline .button');
 
@@ -53,26 +62,4 @@ toggleIcons.forEach((icon, index) => {
     });
 });
 
-//slider img
-let currentSlide = 0;
-  const swiperEl = document.querySelector('.swiper-container-cmt');
-  swiperEl.initialize();
-  const btnSlider = document.querySelectorAll('.btn_slider');
-  const swiper = document.querySelector('.mySwiper');
 
-  function showSlide(index) {
-    currentSlide = index;
-    swiper.swiper.slideTo(currentSlide, 500);
-    updateButtons();
-  }
-
-  function updateButtons() {
-    btnSlider.forEach((button, i) => {
-      button.classList.toggle('active', i === currentSlide);
-    });
-  }
-
-  swiper.addEventListener('slidechange', () => {
-    currentSlide = swiper.swiper.realIndex;
-    updateButtons();
-  });
