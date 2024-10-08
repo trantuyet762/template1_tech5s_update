@@ -2189,6 +2189,10 @@ video {
     margin-top: 70px;
   }
 
+  .sm\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
   .sm\:flex {
     display: flex;
   }

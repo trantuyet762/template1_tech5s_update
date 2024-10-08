@@ -24,6 +24,7 @@
 
 .header{
   z-index:100!important;
+  width:100vw
 }
 .menu-overlay {
   position: fixed;
