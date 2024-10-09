@@ -62,4 +62,20 @@ toggleIcons.forEach((icon, index) => {
     });
 });
 
+//hover info_doctor
+
+// const info_doctor_container = document.querySelectorAll('.info_doctor_container');
+
+// info_doctor_container.forEach(itemInfoContainer => {
+//     const info_doctor = itemInfoContainer.querySelector('.info_doctor'); 
+
+//     itemInfoContainer.addEventListener('mouseenter', () => {
+//         info_doctor.classList.add('active'); 
+//     });
+
+//     itemInfoContainer.addEventListener('mouseleave', () => {
+//         info_doctor.classList.remove('active'); 
+//     });
+// });
+
 

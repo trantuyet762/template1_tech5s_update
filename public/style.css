@@ -333,3 +333,30 @@ li:hover {
   box-shadow: 0px 10px 24px 0px #2891CC80;
 
 }
+// hover info_doctor
+.info_doctor_container{
+  position:relative;
+  transition: transform 0.3s ease;
+}
+.info_doctor{
+  position:absolute;
+  bottom:-37%;
+  left:0;
+  right:0;
+  transition: transform 0.3s ease;
+  .rate_info_doctor{
+    display:none;
+   
+  }
+}
+.info_doctor_container:hover {
+  box-shadow: 40px 150px 50px rgba(0, 0, 0, 0.1)
+}
+.info_doctor_container:hover .info_doctor{
+  bottom: -30%%;
+  .rate_info_doctor{
+    display:flex;
+    flex-direction:column;
+   
+  }
+}
