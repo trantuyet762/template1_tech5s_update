@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
-    "swiper": "^11.1.14",
+    
     "tailwindcss": "^3.4.13"
   },
   "devDependencies": {},
@@ -15,6 +15,6 @@
   "author": "",
   "license": "ISC",
   "tags": [
-    "swiper"
+    ""
   ]
 }

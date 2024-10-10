@@ -1,16 +1,52 @@
 
+
+var swiper_info = new Swiper(".info_doctor_swiper", {
+  
+  slidesPerView: 4,
+  slidesPerGroup: 1,
+  spaceBetween: 32, 
+  loop:true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+ 
+  },
+  breakpoints: {
+    
+    767: {
+        slidesPerView: 1, 
+        slidesPerGroup: 1, 
+    },
+    
+    768: {
+        slidesPerView: 2, 
+        slidesPerGroup: 1, 
+    },
+    
+    1024: {
+        slidesPerView: 2, 
+        slidesPerGroup: 2, 
+    },
+
+     1280: {
+        slidesPerView: 3, 
+        slidesPerGroup: 1, 
+    },
+    1536: {
+        slidesPerView: 4, 
+        slidesPerGroup: 1,
+    },
+},
+  });
+
+
+
 const topMenu= document.getElementById('top-menu')
 const toggleTopMenu= document.getElementById('toggle-top-menu-icon')
 const overlay = document.getElementById('menu-overlay');
 const phoneIcon = document.getElementById('phone-icon');
 const phoneNumber = document.getElementById('phone-number');
 //slider img
-const swiper = new Swiper('.swiper-container', {
-    // Các tùy chọn Swiper của bạn
-});
-
-// Slider img
-
 
 //change bg tabline
 const btnTab = document.querySelectorAll('#btn_tabline .button');
@@ -62,20 +98,6 @@ toggleIcons.forEach((icon, index) => {
     });
 });
 
-//hover info_doctor
 
-// const info_doctor_container = document.querySelectorAll('.info_doctor_container');
-
-// info_doctor_container.forEach(itemInfoContainer => {
-//     const info_doctor = itemInfoContainer.querySelector('.info_doctor'); 
-
-//     itemInfoContainer.addEventListener('mouseenter', () => {
-//         info_doctor.classList.add('active'); 
-//     });
-
-//     itemInfoContainer.addEventListener('mouseleave', () => {
-//         info_doctor.classList.remove('active'); 
-//     });
-// });
 
 
