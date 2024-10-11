@@ -101,3 +101,22 @@ toggleIcons.forEach((icon, index) => {
 
 
 
+////
+var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 7,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper(".customer_img_vacxin_swiper", {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper_cus_img_container,
+    },
+  });

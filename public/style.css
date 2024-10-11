@@ -363,7 +363,7 @@ li:hover {
 
 .swiper-container.swiper.info_doctor_swiper{
   width:93%;
-  height:500px;
+  height:600px;
 }
 @media (min-width:1536px){
   .swiper-container.swiper.info_doctor_swiper{
@@ -383,17 +383,128 @@ li:hover {
   height:382px;
 }
 
-/// arrow messeage
-.arrow-mess{
-  .arrow {
-    position: absolute;
-    top: 50%;
-    right: -00px;
-    margin-top: -5px; 
-    width: 90px;
-    height: 10;
-    border-left: 10px solid white;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+
+@media (max-width: 1536px) {
+  .banner_ques {
+    overflow-y: auto;
+  }
 }
+
+@media (min-width: 1536px) {
+  .banner_ques {
+    height: max-content;
+    overflow-y: unset; 
+  }
+}
+@media (min-width: 1536px){
+  .banner_ques_mes{
+    position:absolute;
+  }
+}
+@media (max-width: 1535px){
+  .banner_ques_mes{
+    width:90%
+  }
+}
+
+//swiper img customer vacxin
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+ 
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper.customer_img_vacxin_swiper,  {
+  width: 100%;
+  height: 670px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper.customer_img_vacxin_swiperTab{
+  width:100%;
+  height:118px;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.customer_img_vacxin_swiper {
+  height: 80%;
+  width: 100%;
+}
+
+.customer_img_vacxin_swiperTab {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.customer_img_vacxin_swiperTab .swiper-slide {
+  width: 50%!important;
+  height: 100%;
+  border-radius:10px;
+  
+}
+@media(min-width:760px){
+  .customer_img_vacxin_swiperTab .swiper-slide{
+    width: 25%!important;
+  }
+}
+@media(min-width:1536px){
+  .customer_img_vacxin_swiperTab .swiper-slide{
+    width: 14.2%;
+  }
+}
+
+
+.customer_img_vacxin_swiperTab .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.customer_img_vacxin_swiper{
+  .swiper-wrapper{
+    .swiper-slide{
+      img{
+        border-radius:20px;
+
+      }
+    }
+  }
+}
+.customer_img_vacxin_swiperTab{
+  .swiper-wrapper{
+    .swiper-slide{
+      img{
+        border-radius:10px;
+        
+      }
+    }
+  }
+}
+.img_cus_important {
+  height:670px!important;
 }
