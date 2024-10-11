@@ -3360,6 +3360,10 @@ video {
     margin-top: 96px;
   }
 
+  .xl\:mb-\[24px\] {
+    margin-bottom: 24px;
+  }
+
   .xl\:flex {
     display: flex;
   }
