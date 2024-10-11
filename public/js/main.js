@@ -1,3 +1,15 @@
+ 
+ ///shadow cmt
+ 
+ function toggleShadowCom(element) {
+    const slides = document.querySelectorAll('.swiper-slide-cmt');
+    slides.forEach(slide => {
+        slide.classList.remove('active');
+    });
+
+   
+    element.classList.add('active');
+}
 
 
 var swiper_info = new Swiper(".info_doctor_swiper", {
@@ -120,3 +132,28 @@ var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
       swiper: swiper_cus_img_container,
     },
   });
+  //// swiper table
+  var swiper_table = new Swiper(".swiper-container-img", {
+    spaceBetween: 30,
+    effect: "fade",
+    grabCursor: true, 
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  // swiper cmt
+
+  var swiper_cmt = new Swiper(".swiper-container-cmt", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+ 
