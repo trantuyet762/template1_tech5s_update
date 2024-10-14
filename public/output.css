@@ -809,6 +809,10 @@ video {
   top: 72%;
 }
 
+.left-\[32px\] {
+  left: 32px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -954,6 +958,10 @@ video {
 
 .mt-\[1200px\] {
   margin-top: 1200px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
 }
 
 .block {

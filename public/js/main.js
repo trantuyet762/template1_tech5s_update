@@ -170,4 +170,16 @@ var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
 
   });
 
+ ////
  
+var cus_test_swiper = new Swiper(".cus_test_swiper_container", {
+  
+  slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+ 
+});
