@@ -17,7 +17,7 @@ var swiper_info = new Swiper(".info_doctor_swiper", {
   slidesPerView: 4,
   slidesPerGroup: 1,
   spaceBetween: 32, 
-  loop:true,
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -25,7 +25,7 @@ var swiper_info = new Swiper(".info_doctor_swiper", {
   },
   breakpoints: {
     
-    767: {
+    350: {
         slidesPerView: 1, 
         slidesPerGroup: 1, 
     },
@@ -37,14 +37,14 @@ var swiper_info = new Swiper(".info_doctor_swiper", {
     
     1024: {
         slidesPerView: 2, 
-        slidesPerGroup: 2, 
+        slidesPerGroup: 1, 
     },
 
      1280: {
         slidesPerView: 3, 
         slidesPerGroup: 1, 
     },
-    1536: {
+    1920: {
         slidesPerView: 4, 
         slidesPerGroup: 1,
     },
@@ -147,13 +147,27 @@ var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
   // swiper cmt
 
   var swiper_cmt = new Swiper(".swiper-container-cmt", {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 30,
     freeMode: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    breakpoints: {
+    
+        350: {
+            slidesPerView: 1, 
+            slidesPerGroup: 1, 
+        },
+        
+        640: {
+            slidesPerView: 2, 
+            slidesPerGroup: 1, 
+        },
+       
+    },
+
   });
 
  
