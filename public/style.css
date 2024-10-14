@@ -395,6 +395,13 @@ li:hover {
 @media (min-width:1536px){
   .swiper-container.swiper.info_doctor_swiper{
     width:73.33%;
+    
+  }
+}
+@media (max-width:1024px){
+  .swiper-container.swiper.info_doctor_swiper{
+    height:550px
+    
   }
 }
 .swiper-wrapper.info_doctor_wrapper{
@@ -467,7 +474,11 @@ li:hover {
   width:100%;
   height:118px;
 }
-
+@media(max-width:1024px){
+  .swiper.customer_img_vacxin_swiperTab{
+    height:80px!important;
+  }
+}
 .swiper-slide {
   background-size: cover;
   background-position: center;
@@ -510,14 +521,38 @@ li:hover {
 .swiper-slide.swiper_img_vacxin .img {
   display: block;
   width: 100%;
-  height: 670px!important;
+  height: 200px!important;
   object-fit: cover;
+}
+@media (min-width:640px){
+  .swiper-slide.swiper_img_vacxin .img{
+    height: 350px!important;
+  }
+ 
+  
+}
+@media (min-width:1024px){
+  .swiper-slide.swiper_img_vacxin .img{
+    height: 500px!important;
+  }
+ 
+}
+@media (min-width:1536px){
+  .swiper-slide.swiper_img_vacxin .img{
+    height: 670px!important;
+  }
+  
 }
 .swiper-slide.swiper_img_vacxin .imgTab {
   display: block;
   width: 100%;
   height: 118px!important;
   object-fit: cover;
+}
+@media (max-width:1024px){
+  .swiper-slide.swiper_img_vacxin .imgTab{
+    height:80px!important;
+  }
 }
 .customer_img_vacxin_swiper{
   .swiper-wrapper{
@@ -539,5 +574,28 @@ li:hover {
     }
   }
 }
+.swiper-button-next:after, .swiper-button-prev:after {
+  display:none!important;
+}
 
-
+/* .swiper-button-prev,
+.swiper-button-next {
+    display: none!important; 
+} */
+.custom-button {
+  background: transparent; 
+  border: none; 
+  cursor: pointer; 
+  width: 36px; 
+  height: 36px;
+}
+.custom-button svg {
+  width: 100%; 
+  height: 100%;
+}
+.swiper-slide.swiper_img_vacxin{
+  height: fit-content!important;
+}
+.wiper_cus_img_container.customer_img_vacxin_swiperTab{
+  height: fit-content!important;
+}
