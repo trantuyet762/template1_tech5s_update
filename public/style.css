@@ -53,6 +53,10 @@
     box-shadow: 0px 8px 16px 0px #E5770959;
 
   }
+  .button_text_hover:hover{
+    box-shadow: 0px 8px 16px 0px #E5770959;
+
+  }
 
 .phone_shadow{
   box-shadow: 0px 8px 16px 0px #E5770959;
