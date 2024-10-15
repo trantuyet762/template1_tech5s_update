@@ -125,8 +125,8 @@ var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
     loop: true,
     spaceBetween: 10,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".info_doctor_next",
+      prevEl: ".info_doctor_prev",
     },
     thumbs: {
       swiper: swiper_cus_img_container,
@@ -175,11 +175,28 @@ var swiper_cus_img_container  = new Swiper(".customer_img_vacxin_swiperTab", {
 var cus_test_swiper = new Swiper(".cus_test_swiper_container", {
   
   slidesPerView: 3,
-    spaceBetween: 30,
     freeMode: true,
+    spaceBetween: 23,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".cus_test_img_next",
+    prevEl: ".cus_test_img_prev",
   },
+  breakpoints: {
+    
+    350: {
+        slidesPerView: 1, 
+        slidesPerGroup: 1, 
+    },
+    
+    1024: {
+        slidesPerView: 2, 
+        slidesPerGroup: 1, 
+    },
+    1536: {
+      slidesPerView: 3, 
+        slidesPerGroup: 1, 
+    }
+   
+},
  
 });

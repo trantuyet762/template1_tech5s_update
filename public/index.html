@@ -366,7 +366,7 @@
            
             <div id="items-container" class=" mt-[30px]  xl:mt-[100px] 3xl:mt-[170px] px-[15px] xl:px-[264px] lg:px-[150px] md:px-[50px] sm:px-[80px] grid gap-[20px] sm:gap-[48px] overflow-hidden xs:grid-rows-1 xs:grid-cols-1
                         md:grid-rows-3 md:grid-cols-2
-                        2xl:grid-rows-2 2xl:grid-cols-3 ">
+                        2xl:grid-rows-2 2xl:grid-cols-3 " >
                 <div class="flex-col text-center  " >
                     <div class="flex justify-center mb-[20px] ">
                         <img src="img/img1.png" class="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] text-center"/>
@@ -1208,13 +1208,14 @@
     <!-- section info_doctor start -->
    <section class="doctor_info mt-[112px]">
         <div class="container mx-auto">
-            <div class="flex flex-col gap-[48px]">
+            <div class="flex relative flex-col gap-[48px] object-cover" style="background-image: url('img/bg_image.png'); background-size: cover; background-position: left;">
+                
                 <div class=" flex flex-col items-center justify-center gap-[10px] md:gap-[24px]">
                     <h2 class="text-[#252525] font-[700] text-[16px] sm:text-[22px] md:text-[30px] xl:text-[38px] text-center">Đội ngũ bác sĩ nhiệt huyết, tận tụy vì khách hàng</h2>
                     <p class="bg-gradient-to-l from-[#4EBEFF] to-[#0679BB] w-[50px] md:w-[120px] h-[4px] rounded-[12px]"></p>
                 </div>
                 
-                    <div class=" swiper_info swiper-container swiper info_doctor_swiper  ">
+                <div class=" swiper_info swiper-container swiper info_doctor_swiper  ">
                         <div class="swiper-wrapper info_doctor_wrapper justify-between ">
                           <div class="swiper-slide relative info_doctor_container   rounded-[15px] ">
                               <div class=" bg-[#ECF3F6]  rounded-t-[15px] flex justify-center">
@@ -1477,7 +1478,9 @@
                         </div>
       
                         <div class="swiper-pagination"></div>
-                      </div>
+                </div>
+
+                <div class=" w-full  absolute bottom-0  bg-gradient-to-t bg_gradient_info-doctor" style="height: 210px;;"></div>
                 
             </div>
         </div>
@@ -1745,10 +1748,18 @@
     <div class="swiper-wrapper">
       
       <div class="swiper-slide swiper_img_vacxin">
+        <img src="img/swiper_img_cus1.png" alt="img_cus" class="img" />
+      </div>
+      <div class="swiper-slide swiper_img_vacxin">
+        <img src="img/swiper_img_cus2.png" alt="img_cus" class="img" />
+      </div>
+      <div class="swiper-slide swiper_img_vacxin">
         <img src="img/swiper_img_cus3.png" alt="img_cus" class="img" />
+        
       </div>
       <div class="swiper-slide swiper_img_vacxin">
         <img src="img/swiper_img_cus4.png" alt="img_cus" class="img" />
+        
       </div>
       <div class="swiper-slide swiper_img_vacxin">
         <img src="img/swiper_img_cus5.png" alt="img_cus" class="img" />
@@ -1763,10 +1774,6 @@
         
       </div>
       <div class="swiper-slide swiper_img_vacxin">
-        <img src="img/swiper_img_cus8.png" alt="img_cus" class="img" />
-        
-      </div>
-      <div class="swiper-slide swiper_img_vacxin">
         <img src="img/swiper_img_cus1.png" alt="img_cus" class="img" />
         
       </div>
@@ -1776,10 +1783,6 @@
       </div>
       <div class="swiper-slide swiper_img_vacxin">
         <img src="img/swiper_img_cus3.png" alt="img_cus" class="img" />
-        
-      </div>
-      <div class="swiper-slide swiper_img_vacxin">
-        <img src="img/swiper_img_cus4.png" alt="img_cus" class="img" />
         
       </div>
       
@@ -1795,10 +1798,18 @@
         
          
           <div class="swiper-slide swiper_img_vacxin swiper_img_vacxin ">
+            <img src="img/swiper_img_cus1.png" alt="img_cus" class="imgTab"/>
+          </div>
+          <div class="swiper-slide swiper_img_vacxin">
+            <img src="img/swiper_img_cus2.png" alt="img_cus" class="imgTab"/>
+          </div>
+          <div class="swiper-slide swiper_img_vacxin">
             <img src="img/swiper_img_cus3.png" alt="img_cus" class="imgTab"/>
+            
           </div>
           <div class="swiper-slide swiper_img_vacxin">
             <img src="img/swiper_img_cus4.png" alt="img_cus" class="imgTab"/>
+            
           </div>
           <div class="swiper-slide swiper_img_vacxin">
             <img src="img/swiper_img_cus5.png" alt="img_cus" class="imgTab"/>
@@ -1813,10 +1824,6 @@
             
           </div>
           <div class="swiper-slide swiper_img_vacxin">
-            <img src="img/swiper_img_cus8.png" alt="img_cus" class="imgTab"/>
-            
-          </div>
-          <div class="swiper-slide swiper_img_vacxin">
             <img src="img/swiper_img_cus1.png" alt="img_cus" class="imgTab"/>
             
           </div>
@@ -1828,16 +1835,10 @@
             <img src="img/swiper_img_cus3.png" alt="img_cus" class="imgTab"/>
             
           </div>
-          <div class="swiper-slide swiper_img_vacxin">
-            <img src="img/swiper_img_cus4.png" alt="img_cus" class="imgTab"/>
-            
-          </div>
           
-      <div class="swiper-slide swiper_img_vacxin">
-        <img src="img/swiper_img_cus2.png" alt="img_cus" class="imgTab"/>
-      </div>
+       
     </div>
-    <button class="swiper-button-next size-3 rotate-180 custom-button">
+    <button class="swiper-button-next info_doctor_next  size-3 rotate-180 custom-button">
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" fill="white" stroke="url(#paint0_linear_1_6531)" stroke-width="2"/>
             <path d="M25 18H11" stroke="url(#paint1_linear_1_6531)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1860,7 +1861,7 @@
             
             
         </button>
-    <button class="swiper-button-prev custom-button">
+    <button class="swiper-button-prev custom-button info_doctor_prev">
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" fill="white" stroke="url(#paint0_linear_1_6531)" stroke-width="2"/>
             <path d="M25 18H11" stroke="url(#paint1_linear_1_6531)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1890,199 +1891,480 @@
    </section>
 
  <!-- section cus_test_vacxin -->
-   <section class="cus_test_vacxin mt-[112px]">
+   <section class="cus_test_vacxin mt-[30px] md:mt-[112px]">
     <div class="container mx-auto">
         <div>
-            <div class="relative z-10 w-full h-[380px] bg-gradient-to-br from-[#4EBEFF] to-[#0679BB]">
+            <div class="relative z-10 w-full h-[210px] sm:h-[380px] bg-gradient-to-br from-[#4EBEFF] to-[#0679BB]">
                 <div class="absolute z-20 w-full top-0 bottom-0 ">
                     <img src="img/group2.png" class=" object-cover opacity-[0.2]">
                 </div>
-                <div class="flex justify-center text-center items-center gap-[10px] md:gap-[24px] mb-[20px] sm:mb-[30px] lg:mb-[64px] flex-col pt-[80px]">
+                <div class="flex justify-center text-center items-center gap-[10px] md:gap-[24px] mb-[40px] flex-col pt-[20px] sm:pt-[80px]">
 
-                    <h2 class="text-[#FFFFFF] font-[700] text-[16px] sm:text-[22px] md:text-[30px] xl:text-[38px] text-center">Hình ảnh khách hàng khi sử dụng gói dịch vụ Tiêm chủng Vắc-xin</h2>
+                    <h2 class="text-[#FFFFFF] px-[20px] font-[700] text-[16px] sm:text-[22px] md:text-[30px] xl:text-[38px] text-center">Hình ảnh khách hàng khi sử dụng gói dịch vụ Tiêm chủng Vắc-xin</h2>
                     <p class="bg-[#FFFFFF] w-[50px] md:w-[120px] rounded-[12px] h-[4px]"></p>
                 </div>
-                <div class="w-[80%]">
-                    <div class="swiper cus_test_swiper_container cus_test_swiper ">
-                        <div class="swiper-wrapper gap-[32px]">
-                          <div class="swiper-slide img_cus_vacxin_swiper relative max-w-[454px] h-[329px] rounded-[15px]">
-                                <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover">
-                                <div class="absolute left-[32px]  max-w-[389px] px-[36px] py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%]">
-                                    <h2 class="text-[#252525] mb-[15px] text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</h2>
-                                    <div class="flex justify-around">
-                                        <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            <span class="text-[#88888888] text-[14px] font-[700]">
-                                                    22/07/2022
-        
-                                            </span>
-                                        </p>
-                                       <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
-                                       </p>
-                                    </div>
+                <div class="w-[70%] lg:w-[90%] 3xl:w-[73%] mx-auto">
+                    <div class="swiper cus_test_swiper_container  cus_test_swiper z-30 lg:top-[40px] top-[-10px]" style="z-index: 30!important; " >
+                        <div class="swiper-wrapper swiper-wrapper_img-cus-vacxin ">
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                  <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                  <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                             
                                 </div>
+                                  <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test2.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                                <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test3.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                                <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                               <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test2.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                              <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test3.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                              <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                            <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                            <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                            <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                                <img src="img/cus_test2.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                                <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                                <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+
+                        <div class="swiper-slide img_cus_vacxin_swiper relative  rounded-[15px] flex justify-center" style="display:flex!important;">
+                            <img src="img/cus_test3.png" alt="cus_test_image" class="object-cover rounded-[15px]">
+                            <div class="absolute ">
+                                       <a href="#" >
+                                         <svg width="48" height="34" viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_6577)">
+                                            <path d="M46.9399 5.30306C46.6646 4.27806 46.1275 3.34361 45.3822 2.59274C44.6369 1.84188 43.7094 1.3008 42.6919 1.0234C38.967 0 23.9757 0 23.9757 0C23.9757 0 8.98354 0.0309777 5.25866 1.05438C4.24119 1.3318 3.31362 1.8729 2.56831 2.6238C1.82299 3.3747 1.28595 4.30919 1.01066 5.33422C-0.116026 12.0016 -0.553089 22.1612 1.0416 28.5619C1.31692 29.5869 1.85397 30.5213 2.59928 31.2722C3.34459 32.0231 4.27215 32.5641 5.2896 32.8415C9.01447 33.8649 24.0062 33.8649 24.0062 33.8649C24.0062 33.8649 38.9978 33.8649 42.7225 32.8415C43.74 32.5642 44.6676 32.0231 45.4129 31.2722C46.1582 30.5214 46.6953 29.5869 46.9707 28.5619C48.159 21.885 48.5252 11.7319 46.9399 5.30324V5.30306Z" fill="#FF0000"/>
+                                            <path d="M19.2041 24.189L31.6406 16.9323L19.2041 9.67554V24.189Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_6577">
+                                            <rect width="48" height="34" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                       </a>
+                                </div>
+                           <div class="absolute max-w-[200px] flex flex-col sm:max-w-[389px] px-[10px] sm:px-[36px] py-[9px]  sm:py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%] swiper_cus_img_vacxin-shadow">
+                                      <a href="#" class="text-[#252525] mb-[3px] sm:mb-[15px] text-[14px] text-nowrap sm:text-wrap overflow-hidden  sm:text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</a>
+                                      <div class="flex justify-center sm:justify-around">
+                                          <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
+                                              <svg class="hidden sm:flex" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg>
+                                              <span class="text-[#88888888] text-[12px] sm:text-[14px] font-[700]">
+                                                      22/07/2022
+          
+                                              </span>
+                                          </p>
+                                         <p class="text-[#88888888]  font-[700] sm:flex items-center gap-[8px] hidden">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
+                                         </p>
+                                      </div>
+                                  </div>
+                        </div>
+                            
                           </div>
-                          <div class="swiper-slide img_cus_vacxin_swiper relative max-w-[454px] h-[329px] rounded-[15px]">
-                            <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover">
-                            <div class="absolute left-[32px]  max-w-[389px] px-[36px] py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%]">
-                                <h2 class="text-[#252525] mb-[15px] text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</h2>
-                                <div class="flex justify-around">
-                                    <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        <span class="text-[#88888888] text-[14px] font-[700]">
-                                                22/07/2022
-    
-                                        </span>
-                                    </p>
-                                   <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
-                                   </p>
-                                </div>
-                            </div>
-                      </div>
-
-                      <div class="swiper-slide img_cus_vacxin_swiper relative max-w-[454px] h-[329px] rounded-[15px]">
-                        <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover">
-                        <div class="absolute left-[32px]  max-w-[389px] px-[36px] py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%]">
-                            <h2 class="text-[#252525] mb-[15px] text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</h2>
-                            <div class="flex justify-around">
-                                <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    <span class="text-[#88888888] text-[14px] font-[700]">
-                                            22/07/2022
-
-                                    </span>
-                                </p>
-                               <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                    <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
-                               </p>
-                            </div>
-                        </div>
-                  </div>
-
-                  <div class="swiper-slide img_cus_vacxin_swiper relative max-w-[454px] h-[329px] rounded-[15px]">
-                    <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover">
-                    <div class="absolute left-[32px]  max-w-[389px] px-[36px] py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%]">
-                        <h2 class="text-[#252525] mb-[15px] text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</h2>
-                        <div class="flex justify-around">
-                            <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                <span class="text-[#88888888] text-[14px] font-[700]">
-                                        22/07/2022
-
-                                </span>
-                            </p>
-                           <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <div class="swiper-button-next size-3 cus_test_img_next">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="18" cy="18" r="18" fill="#2891CC"/>
+                                <path d="M11 18H25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18 11L25 18L18 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
-                           </p>
-                        </div>
-                    </div>
-              </div>
-
-              <div class="swiper-slide img_cus_vacxin_swiper relative max-w-[454px] h-[329px] rounded-[15px]">
-                <img src="img/cus_test1.png" alt="cus_test_image" class="object-cover">
-                <div class="absolute left-[32px]  max-w-[389px] px-[36px] py-[16px] rounded-[12px] bg-[#FFFFFF] bottom-[10%]">
-                    <h2 class="text-[#252525] mb-[15px] text-[16px] font-[700] text-center">Diễn viên Mạnh Trường trải nghiệm dịch vụ Tư vấn & Tiêm chủng Vắc-xin</h2>
-                    <div class="flex justify-around">
-                        <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8 2V6" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M3 9H21" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H5C3.895 4 3 4.895 3 6V19C3 20.105 3.895 21 5 21H19C20.105 21 21 20.105 21 19V6C21 4.895 20.105 4 19 4Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M7.01316 12.729C6.87516 12.729 6.76316 12.841 6.76416 12.979C6.76416 13.117 6.87616 13.229 7.01416 13.229C7.15216 13.229 7.26416 13.117 7.26416 12.979C7.26416 12.841 7.15216 12.729 7.01316 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12.0132 12.729C11.8752 12.729 11.7632 12.841 11.7642 12.979C11.7642 13.117 11.8762 13.229 12.0142 13.229C12.1522 13.229 12.2642 13.117 12.2642 12.979C12.2642 12.841 12.1522 12.729 12.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M17.0132 12.729C16.8752 12.729 16.7632 12.841 16.7642 12.979C16.7642 13.117 16.8762 13.229 17.0142 13.229C17.1522 13.229 17.2642 13.117 17.2642 12.979C17.2642 12.841 17.1522 12.729 17.0132 12.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M7.01316 16.729C6.87516 16.729 6.76316 16.841 6.76416 16.979C6.76416 17.117 6.87616 17.229 7.01416 17.229C7.15216 17.229 7.26416 17.117 7.26416 16.979C7.26416 16.841 7.15216 16.729 7.01316 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12.0132 16.729C11.8752 16.729 11.7632 16.841 11.7642 16.979C11.7642 17.117 11.8762 17.229 12.0142 17.229C12.1522 17.229 12.2642 17.117 12.2642 16.979C12.2642 16.841 12.1522 16.729 12.0132 16.729" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            <span class="text-[#88888888] text-[14px] font-[700]">
-                                    22/07/2022
-
-                            </span>
-                        </p>
-                       <p class="text-[#88888888]  font-[700] flex items-center gap-[8px]">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#888888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="text-[#88888888] text-[14px] font-[700]">149 người đã xem</span>
-                       </p>
-                    </div>
-                </div>
-          </div>
-                          <div class="swiper-slide img_cus_vacxin_swiper"></div>
-                          <!-- <div class="swiper-slide img_cus_vacxin_swiper">Slide 3</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 4</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 5</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 6</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 7</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 8</div>
-                          <div class="swiper-slide img_cus_vacxin_swiper">Slide 9</div> -->
-                        </div>
-                        <div class="swiper-button-next size-3">
-       
+                                
             
                         </div>
-                        <div class="swiper-button-prev">
-                          
+                        <div class="swiper-button-prev cus_test_img_prev">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="18" cy="18" r="18" transform="matrix(-1 0 0 1 36 0)" fill="#2891CC"/>
+                                <path d="M25 18H11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18 11L11 18L18 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
                                 
                         </div>
                       </div>
