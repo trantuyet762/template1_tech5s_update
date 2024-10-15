@@ -637,3 +637,41 @@ li:hover {
     }
   }
 }
+
+//
+
+.swiper_slide_offers_vacxin.swiper-slide.swiper-slide-active{
+  background: linear-gradient(135deg, #4EBEFF 0%, #0679BB 100%)!important;
+
+}
+.swiper_slide_offers_vacxin.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active {
+  background: linear-gradient(135deg, #4EBEFF 0%, #0679BB 100%);
+  transition: 500ms;
+  box-shadow: 0px 8px 40px 0px #2891CC66!important;
+  .button_offers{
+    button{
+      background: linear-gradient(135deg, #FFFFFF 0%, #FFFFFF 100%);
+      color: #2891CC!important;
+    }
+    
+  }
+  .offers_price_old{
+    color: #ECF3F6;
+  }
+  .offers_price_new{
+    color: #FFFFFF;
+  }
+  .offers_title{
+    color: #FFFFFF;
+  }
+  .text_offers_vacxin{
+    svg path{
+      stroke:#FFFFFF;
+    }
+    p{
+      color: #FFFFFF;
+    }
+  }
+
+
+}

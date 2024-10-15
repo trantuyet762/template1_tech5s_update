@@ -200,3 +200,29 @@ var cus_test_swiper = new Swiper(".cus_test_swiper_container", {
 },
  
 });
+
+////offres vacxin swiper
+
+var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
+  effect: "coverflow",
+  grabCursor: true,
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 150,
+    modifier: 2.5,
+    slideShadows: true,
+  },
+  navigation: {
+    nextEl: ".offers_vacxin_next",
+    prevEl: ".offers_vacxin_prev",
+  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // }
+ 
+});
