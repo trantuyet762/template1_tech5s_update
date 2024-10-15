@@ -214,7 +214,7 @@ var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
     stretch: 0,
     depth: 150,
     modifier: 2.5,
-    slideShadows: true,
+    slideShadows: false,
   },
   navigation: {
     nextEl: ".offers_vacxin_next",
