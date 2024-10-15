@@ -506,16 +506,13 @@ li:hover {
   border-radius:10px;
   
 }
+
 @media(min-width:760px){
   .customer_img_vacxin_swiperTab .swiper-slide{
     width: 25%!important;
   }
 }
-@media(min-width:1536px){
-  .customer_img_vacxin_swiperTab .swiper-slide{
-    width: 14.2%;
-  }
-}
+
 
 
 .customer_img_vacxin_swiperTab .swiper-slide-thumb-active {
@@ -556,6 +553,11 @@ li:hover {
 @media (max-width:1024px){
   .swiper-slide.swiper_img_vacxin .imgTab{
     height:80px!important;
+  }
+}
+@media(min-width:1536px){
+  .customer_img_vacxin_swiperTab .swiper-slide{
+    width: 13.7%!important;
   }
 }
 .customer_img_vacxin_swiper{
