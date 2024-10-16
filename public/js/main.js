@@ -207,6 +207,7 @@ var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
   effect: "coverflow",
   grabCursor: true,
   loop: true,
+  spaceBetween: 30,
   centeredSlides: true,
   slidesPerView: "auto",
   coverflowEffect: {
@@ -226,3 +227,26 @@ var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
   // }
  
 });
+///video
+
+var videoButtons = document.getElementsByClassName('videoBtn');
+
+for (var i = 0; i < videoButtons.length; i++) {
+    videoButtons[i].onclick = function(event) {
+        event.preventDefault(); 
+        document.getElementById('videoModal').style.display = 'flex';
+        document.getElementById('videoFrame').src = 'https://youtu.be/T0sHaz4H9MQ?si=00Tt5dqp07ERRQQA';
+    }
+}
+
+document.getElementById('closeModal').onclick = function() {
+    document.getElementById('videoModal').style.display = 'none';
+    document.getElementById('videoFrame').src = ''; 
+}
+
+window.onclick = function(event) {
+    if (event.target === document.getElementById('videoModal')) {
+        document.getElementById('videoModal').style.display = 'none';
+        document.getElementById('videoFrame').src = ''; 
+    }
+}
