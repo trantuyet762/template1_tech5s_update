@@ -920,6 +920,11 @@ video {
   margin-right: 40px;
 }
 
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mb-\[-27px\] {
   margin-bottom: -27px;
 }
@@ -1058,6 +1063,10 @@ video {
 
 .mt-\[665px\] {
   margin-top: 665px;
+}
+
+.mt-\[590px\] {
+  margin-top: 590px;
 }
 
 .block {
@@ -2628,6 +2637,10 @@ video {
 
   .sm\:mt-\[70px\] {
     margin-top: 70px;
+  }
+
+  .sm\:mt-\[665px\] {
+    margin-top: 665px;
   }
 
   .sm\:flex {
