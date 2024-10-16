@@ -469,7 +469,12 @@ li:hover {
   object-fit: cover;
 }
 
-
+.swiper-slide.img_cus_vacxin_swiper iframe  {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .swiper.customer_img_vacxin_swiper,  {
   width: 100%;
   height: 670px;
@@ -569,6 +574,18 @@ li:hover {
     height:80px!important;
   }
 }
+@media(max-width:640px){
+  .swiper-button-next.info_doctor_next{
+    
+    top:90%!important;
+    right: -23px!important;
+  }
+  .swiper-button-prev.info_doctor_prev{
+    position:absolute!important;
+    top: 90%!important;
+    left: -23px!important;
+  }
+}
 .customer_img_vacxin_swiper{
   .swiper-wrapper{
     .swiper-slide{
@@ -662,13 +679,14 @@ li:hover {
   height: 350px!important;
   .swiper_cus_img_vacxin-shadow{
     box-shadow: 0px 0px 40px 0px #00000014 !important;
-    bottom:-60px
+    bottom:-60px;
   }
 }
 .swiper-slide.img_cus_vacxin_swiper{
   height: 276px!important;
 }
 .swiper-button-next.cus_test_img_next, .swiper-button-prev.cus_test_img_prev {
+  z-index: 50!important;
   
   top: var(--swiper-navigation-top-offset,42%);
 }
@@ -684,7 +702,7 @@ li:hover {
    
     .swiper_cus_img_vacxin-shadow{
       
-      bottom:-27px
+      bottom:-27px;
     }
   }
 }
@@ -817,7 +835,7 @@ li:hover {
   left: 0px!important;
 }
 .swiper-button-next.swiper-button-disabled.cus_test_img_next, .swiper-button-prev.swiper-button-disabled.cus_test_img_prev {
-  opacity: 1!important;
+  opacity: 0.35!important;
   cursor: auto;
   pointer-events: none;
 }
@@ -829,41 +847,7 @@ li:hover {
   z-index:30!important;
 }
 ///
-.modal {
- 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  transition: opacity 0.3s ease;
-  opacity: 1;
-}
 
-.modal-content {
-  position: relative;
-  width: 80%;
-  transition: opacity 0.3s ease;
-  max-width: 600px;
-}
-.close {
-  transition: opacity 0.5s ease;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-iframe {
-  transition: opacity 0.3s ease;
-  width: 100%;
-  height: 315px;
-}
 ///////
 .proctect_yourself_img img{
  object-fit: cover;
@@ -983,4 +967,10 @@ iframe {
 
   }
   
+}
+@media(max-width:640px){
+  .swiper-button-prev, .swiper-button-next{
+    width:18px!important;
+    height:18px!important;
+  }
 }
