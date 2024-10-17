@@ -8,10 +8,12 @@
     background-color: white;
     display:flex;
     flex-direction: column;
-    li{
-      padding: 20px 0;
-      border-bottom: 1px inset;
-      width: 100%;
+    ul{
+      li{
+        padding: 20px 0;
+        border-bottom: 1px inset;
+        width: 100%;
+      }
     }
     .phone_menu_header{
       width:100%;
@@ -20,7 +22,9 @@
       padding:10px 0px;
       border-bottom: 1px inset;
     }
+    
 }
+
 
 .header{
   z-index:100!important;
@@ -110,19 +114,19 @@
   
   @media(min-width: 1280px){
     .section_banner-text{
-      margin-left: 30px;
+      margin-left: 90px;
     }
   }
-  @media(min-width: 1280px){
+  @media(min-width: 1536px){
     .section_banner-text{
-      margin-left: 45px;
+      margin-left: 70px;
     }
   }
  
   
   @media(min-width: 1920px){
     .section_banner-text{
-      margin-left: 100px;
+      margin-left: 256px;
     }
   }
 
@@ -750,6 +754,7 @@ li:hover {
   background: linear-gradient(135deg, #4EBEFF 0%, #0679BB 100%)!important;
 
 }
+
 .swiper_slide_offers_vacxin.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active {
   background: linear-gradient(135deg, #4EBEFF 0%, #0679BB 100%);
   transition: 500ms;
@@ -757,10 +762,14 @@ li:hover {
 
   .button_offers{
     button{
+      transition: all 0.3s ease;
       background: linear-gradient(135deg, #FFFFFF 0%, #FFFFFF 100%);
       color: #2891CC!important;
     }
     
+  }
+  .button_offers button:hover{
+    opacity: 0.85!important;
   }
   .offers_price_old{
     color: #ECF3F6;
@@ -974,3 +983,11 @@ li:hover {
     height:18px!important;
   }
 }
+@media(min-width:1920px){
+  .text-justify-last{
+    line-height:46px;
+    width: 895px;
+    text-align-last: justify;
+  }
+}
+

@@ -207,7 +207,7 @@ var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
   effect: "coverflow",
   grabCursor: true,
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 50,
   centeredSlides: true,
   slidesPerView: "auto",
   coverflowEffect: {
