@@ -227,3 +227,43 @@ var swiper_offers_vacxin = new Swiper(".swiper_offers_vacxin_container", {
   // }
  
 });
+
+// Get all the YouTube icon elements
+const youtubeIcons = document.querySelectorAll('.youtube-icon');
+
+// Get the modal and close button elements
+const videoModal = document.getElementById('video-modal');
+const closeModal = document.getElementById('close-modal');
+const videoContainer = document.getElementById('video-container');
+
+// Add click event listener to each YouTube icon
+youtubeIcons.forEach((icon) => {
+  icon.addEventListener('click', () => {
+    // Get the video source from the data attribute
+    const videoSrc = icon.parentElement.getAttribute('data-video-src');
+
+    // Create an iframe element for the video
+    const iframe = document.createElement('iframe');
+    iframe.src = videoSrc;
+    iframe.width = '560';
+    iframe.height = '315';
+    iframe.frameborder = '0';
+    iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    iframe.allowfullscreen = true;
+
+    // Clear any existing content in the video container
+    videoContainer.innerHTML = '';
+    videoContainer.appendChild(iframe);
+
+    // Show the modal
+    videoModal.classList.remove('hidden');
+    videoModal.classList.add('flex');
+  });
+});
+
+// Add click event listener to the close button
+closeModal.addEventListener('click', () => {
+  // Hide the modal
+  videoModal.classList.remove('flex');
+  videoModal.classList.add('hidden');
+});
